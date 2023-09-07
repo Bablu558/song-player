@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.music-player {
+    margin: 20px;
+    margin-top: 150px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    /* width: 550px;  */
+    /*comment because its create to make it responsive*/
+    /* background-color: rgb(321 4 12); */
+    /* background-image: linear-gradient( to right, aqua,green,skyblue); */
+    background-color:aqua;
+    display: inline-block;
+}
+/* #file-input{
+    
+} */
+
+.controls button {
+    font-size: 18px;
+    
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+.controls button:hover {
+    background-color: #333;
+    color: #fff;
+}
+/* CSS to create the scrolling effect */
+.scrolling-text {
+    width: 400px;
+    background-color:red;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    animation: marquee 10s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes marquee {
+    0% {
+        left: 100%; /* Start from right */
+    }
+    100% {
+        left: -100%; /* Move to left */
+    }
+}

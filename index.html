@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-player">
+        <audio id="audio" controls autoplay>
+
+        </audio>
+        <div><input type="file" id="file-input" multiple></div>
+        <!-- <div id="music-name"></div> -->
+       <!-- Add this div to display the moving music name -->
+<!-- <div id="music-name-container">
+    <div id="music-name" class="scrolling-text"></div>
+</div> -->
+<div id="music-name-container">
+    <div id="music-name" class="scrolling-text"></div>
+</div>
+ 
+        <div class="controls">
+            <button id="prev">Previous</button>
+            <button id="play-pause">Play</button>
+            <button id="next">Next</button>
+            <button id="stop">Stop</button>
+            <button id="mute">Mute</button>
+        </div>
+    </div>
+    <!-- Add this div to display the music name -->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
